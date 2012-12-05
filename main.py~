@@ -9,6 +9,6 @@ if __name__ == '__main__':
 
     C = testCookie()    
 
-    I = InjectCookie("/Users/samato/Library/Application Support/Firefox/Profiles/rzbjcf3w.default/cookies.sqlite")
+    I = InjectCookie("/Users/samato/Library/Application\ Support/Firefox/Profiles/rzbjcf3w.default/cookies.sqlite")
     I.connectToDb()
     I.insertCookieFirefox(C)
